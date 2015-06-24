@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Name"
+        android:textColor="#a5d4e2"
+        android:textSize="25sp"
+        android:textStyle="normal"
+            />
+        <EditText
+        android:id="@+id/port_input"
+       
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="text" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home"
+        android:paddingLeft="15dp"
+       android:layout_marginTop="15dp"
+        android:text="Phone"
+        android:textColor="#a5d4e2"
+        android:textSize="25sp"
+        android:textStyle="normal"
+            />
+        <EditText
+        android:id="@+id/port_input1"
+      
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="number" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home"
+        android:paddingLeft="15dp"
+       android:layout_marginTop="15dp"
+        android:text="Email"
+        android:textColor="#a5d4e2"
+        android:textSize="25sp"
+        android:textStyle="normal"
+            />
+        <EditText
+        android:id="@+id/port_input2"
+     
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+         android:layout_marginLeft="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="text" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Adress"
+        android:textColor="#a5d4e2"
+        android:textSize="25sp"
+        android:textStyle="normal"
+            />
+        <EditText
+        android:id="@+id/port_input3"
+    
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="text" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Note"
+        android:textColor="#a5d4e2"
+        android:textSize="25sp"
+        android:textStyle="normal"
+            />
+        <EditText
+        android:id="@+id/port_input4"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="text" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Avatar"
+        android:textColor="#a5d4e2"
+        android:textSize="25sp"
+        android:textStyle="normal"
+            />
+       <Button
+        android:id="@+id/choose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_input"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="  choose file   "
+        android:textSize="18sp" 
+         android:background="@android:drawable/editbox_background"
+         >
+       </Button>
+    
+    </TableRow>
+  <TableRow >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:text="Comfirm"
+        android:textColor="#a5d4e2"
+        android:textSize="25sp"
+        android:textStyle="normal"
+            />
+       
+        <TableLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+          <TableRow >
+              <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_input"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="   add   "
+        android:textSize="18sp"
+         android:background="@android:drawable/editbox_background"
+          >
+       </Button>
+       
+              <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/password_input"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:text="cancel"
+        android:textSize="18sp" 
+         android:background="@android:drawable/editbox_background"
+         >
+        
+       </Button>
+              
+          </TableRow>
+           
+            </TableLayout>
+        
+      
+    </TableRow>
+    
+  
+
+  
+</TableLayout>
+
+</LinearLayout>
